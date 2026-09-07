@@ -34,6 +34,7 @@ The plugin declares one MCP server (`mcp.json`) pointing at muapi's hosted Strea
 - [MuAPI API reference](https://muapi.ai/docs/api-reference) — Endpoint and prediction lifecycle documentation for the REST API this plugin proxies.
 - [MuAPI access keys](https://muapi.ai/access-keys) — Create the API key this plugin needs.
 - [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) — Terminal interface for the same API, including a stdio MCP server for Claude Code/Desktop.
+- [muapi-mcp-server](https://github.com/SamurAIGPT/muapi-mcp-server) — MCP server setup reference for other clients (Claude, etc.); this plugin packages the same hosted server specifically for the Cursor Marketplace.
 
 ## License
 
