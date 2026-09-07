@@ -1,0 +1,28 @@
+{
+  "name": "muapi",
+  "description": "Generate images, videos, and audio from 500+ AI models (Flux, Midjourney, Veo, Seedance, Suno, and more) directly inside Cursor via muapi.ai's unified API.",
+  "version": "1.0.0",
+  "author": "muapi.ai",
+  "homepage": "https://muapi.ai",
+  "repository": "https://github.com/SamurAIGPT/muapi-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "video-generation",
+    "audio-generation",
+    "ai-media",
+    "flux",
+    "midjourney",
+    "text-to-image",
+    "text-to-video"
+  ],
+  "logo": "logo.png",
+  "mcp": "mcp.json",
+  "variables": {
+    "MUAPI_API_KEY": {
+      "type": "string",
+      "description": "Your muapi.ai API key. Get one at https://muapi.ai/dashboard",
+      "secret": true
+    }
+  }
+}
